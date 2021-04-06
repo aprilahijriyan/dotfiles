@@ -16,6 +16,6 @@ echo "Installing antigen & oh-my-zsh..."
 curl -L git.io/antigen > ~/.antigen.zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mv -f ~/.zshrc ~/.zshrc.bkp
-cp .zshrc ~/
+cp ./.zshrc ~/
 echo "Done!"
 echo "If the default shell hasn't changed, please restart your computer. Thx :)"
